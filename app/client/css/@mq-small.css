@@ -1,0 +1,51 @@
+@media ( max-width: 800px ) {
+
+h1.siteSection-title {
+    font-size: 1.5rem;
+}
+
+/* Header */
+
+div.header div.navbar {
+    display: none;
+}
+div.header h1 {
+    font-size: 2.2rem;
+}
+div.header h4 {
+    font-size: 1rem;
+}
+div.header h1.parallaxIcon {
+    display: block;
+}
+
+/* Requirements */
+
+p.requir {
+    margin: 5rem 0 5rem 0;
+}
+
+/* Organizador */
+
+div.org-img {
+    width: 90vw;
+    height: 90vw;
+}
+
+}
+
+@media ( max-width: 1300px ) {
+    div.org-info {
+        padding-left: 0;
+        margin: auto;
+    }
+    p.org-bio {
+        text-align: center;
+    }
+    h4.org-contato {
+        text-align: center;
+    }
+    div.org-img {
+        margin: auto;
+    }
+}

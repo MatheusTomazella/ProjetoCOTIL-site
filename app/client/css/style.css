@@ -1,0 +1,207 @@
+ .no-select {
+    -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+section.siteSection {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+}
+h1.siteSection-title {
+    color: rgb(92, 87, 87);
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5rem;
+}
+
+/* Header */
+
+div.header {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+a.nav-item {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem 0 1rem;
+    justify-content: center;
+}
+a.nav-item:hover {
+    color: lightgray;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+a.icon {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+h1.parallaxTitle {
+    color: white;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+h4.parallaxTitle {
+    color: white;
+    font-weight: 400;
+}
+h1.parallaxIcon {
+    display: none;
+    color: white;
+    position: absolute;
+    top: 3.5rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+/* Introduction */
+
+section.intro {
+    margin-top: 1rem;
+}
+
+p.intro-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+/* Goals */
+
+section.goals {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+div.obj-item {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    word-wrap: normal;
+    width: 100%;
+}
+div.odd-item {
+    justify-content: flex-end;
+    text-align: right;
+}
+div.obj-dot {
+    width: 3rem;
+    height: 3rem;
+}
+label.obj-text {
+    font-size: 1.3rem;
+    padding: 0 1rem 0 1rem;
+    max-width: 80%;
+    margin: 0;
+}
+
+/* Requirements */
+
+section.requir {
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+p.requir {
+    margin: 6rem 0 6rem 0;
+}
+
+h4.requir-end {
+    color: rgb(77, 75, 75);
+}
+h1.requir-end {
+    color: rgb(44, 43, 43);
+}
+
+/* Join */
+
+section.join {
+    align-items: center;
+    margin-bottom: 100vh;
+}
+
+button.join {
+    width: 20rem;
+    height: 5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 0.5rem;
+}
+button.join:hover {
+    color: rgb(211, 199, 199);
+    transition-duration: 0.2s;
+}
+button.join:focus {
+    outline: none;
+}
+
+/* Organizador */
+
+section.org {
+    margin-bottom: 6rem;
+    width: 80%;
+}
+
+div.org-item {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div.org-img {
+    width: 30rem;
+    height: 30rem;
+    margin: 0;
+}
+div.org-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 0 6rem;
+    width: 55%;
+}
+h1.org-name {
+    text-align: center;
+    color: rgb(141, 134, 134);
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+}
+p.org-bio {
+    margin-top: 2rem;
+    text-align: justify;
+}
+h4.org-contato {
+    padding-left: 2rem;
+}
+p.org-contato {
+    margin-top: 1rem;
+}
