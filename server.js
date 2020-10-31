@@ -1,4 +1,4 @@
-const { env }   = require('process');
+require('dotenv/config');
 const { app }   = require( './app/app' );
 const http      = require( 'http' ).Server( app );
 const config    = require( './config/config.json' );
