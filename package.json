@@ -13,5 +13,8 @@
     "url": "\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~https://github.com/MatheusTomazella/ProjetoCOTIL-site"
   },
   "author": "Matheus Tomazella",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
